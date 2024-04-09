@@ -1,0 +1,73 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.banner{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(wallpapersden.com_76996-1920x1080.jpg
+    );
+    background-size: cover;
+}
+.h12{
+    text-align: center;
+    color: whitesmoke;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-indent: 100px;  
+}
+div{
+    height: 400px;
+    width: 400px;
+    margin-top: 10%;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border: 4px double purple;
+    text-align: center;
+}
+table{
+    color: aliceblue;
+    text-indent: 40px;
+    margin-top: 40px;
+}
+.raj{
+    color: aliceblue;
+}
+label{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: smaller;
+    text-align: justify;
+   
+}
+.butoon{
+    border: 4px double purple;
+    width: 400px;
+    font-size: larger;
+    color: aqua;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(wallpapersden.com_76996-1920x1080.jpg);
+    margin-bottom: auto;
+    margin-top: 10%;
+    height: 40px;
+    border-radius: 30%
+    
+}
+span{
+    margin-left: 4px;
+    font-style: italic;
+    font-size: xx-small;
+    color: aliceblue;
+    text-indent: -10;
+}
+marquee{
+    transition: 0.5;
+}
+input{
+    border: none;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(wallpapersden.com_76996-1920x1080.jpg);
+    font-size: 12px;
+    color: azure;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="text/javascript">
+        function matchpass(){
+        var firstpassword=document.f1.Password.value;
+        var secondpassword=document.f1.recheck.value;
+        
+        if(firstpassword==secondpassword){
+        return true;
+        }
+        else{
+        alert("Password Dosent Match ReTry!");
+        return false;
+        }
+        }
+        </script>
+    <link rel="stylesheet" href="signup.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign Up</title>
+</head>
+<body class="banner">
+    <marquee>
+    <h1 class="h12">Welcome To The comunity*****Make sure to fill all the details appropriately</h1>
+</marquee>
+    <form name="f1" action="Welcome.html" onsubmit="return matchpass()">
+            <div>
+                <h1 class="raj">Welcome!</h1>>
+            <table cellspacing=12, cellpadding =30>
+            <tr>
+            <td><label for="name">Enter Your name</label></td>
+            <td><input type="text" name="name" class="" id="" required></td>
+            </tr>
+            
+            <tr>
+            <td><label for="Username">Username</label></td>
+            <td><input type="text" name="Username" class="" id="" required></td>           
+            
+            <tr>
+            <td><label for="gmail">Gmail</label></td>
+            <td><input type="email" name="gmail" class="" id=""></td>
+            </tr>
+            <tr>
+            <td><label for="Password" >Password</label></td>
+            <td><input type="password" name="Password"></td>
+            </tr>
+            <tr>
+            <td><label for="recheck">Re-enter Password</label></td>
+            <td><input type="password" name="recheck"></td>
+            </tr>
+        </table>
+            <br><br>
+            <input type="checkbox" required><span>I accept the terms and conditions </span>
+            <br><br>
+                <input type="submit" value="Sign Up" class="butoon" >
+            </div>
+    </form>
+</body>
+</html>
