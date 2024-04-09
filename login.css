@@ -2,7 +2,7 @@
  .banner{
      width: 100%;
      height: 100vh;
-     background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(wallpapersden.com_76996-1920x1080.jpg
+     background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(background1.jpg.jpg
      );
      background-size: cover;
      background-position: center;
@@ -11,7 +11,7 @@
 fieldset{
      height: 450px;
      width: 400px;
-     background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(wallpapersden.com_76996-1920x1080.jpg
+     background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(background1.jpg.jpg
      );
 margin-top: 250px;
 border: 2px solid purple;
